@@ -1,0 +1,49 @@
+{
+	"folders": [
+		{
+			"name": "Building_Escape",
+			"path": "."
+		},
+		{
+			"name": "UE4",
+			"path": "C:\\Program Files\\Epic Games\\UE_4.25"
+		}
+	],
+	"settings": {
+		"typescript.tsc.autoDetect": "off",
+		"files.associations": {
+			"xlocnum": "cpp",
+			"iostream": "cpp",
+			"istream": "cpp",
+			"ostream": "cpp",
+			"xstring": "cpp",
+			"deque": "cpp",
+			"hash_map": "cpp",
+			"hash_set": "cpp",
+			"iterator": "cpp",
+			"list": "cpp",
+			"map": "cpp",
+			"queue": "cpp",
+			"set": "cpp",
+			"stack": "cpp",
+			"vector": "cpp",
+			"xhash": "cpp",
+			"xtree": "cpp",
+			"memory": "cpp",
+			"type_traits": "cpp",
+			"xlocmes": "cpp",
+			"xlocmon": "cpp",
+			"xloctime": "cpp",
+			"tuple": "cpp",
+			"__functional_base": "cpp",
+			"locale": "cpp",
+			"utility": "cpp"
+		}
+	},
+	"extensions": {
+		"recommendations": [
+			"ms-vscode.cpptools",
+			"ms-dotnettools.csharp"
+		]
+	}
+}

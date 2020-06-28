@@ -17,7 +17,8 @@ UE4.sln
 UE4.suo
 UE4.*.suo
 
-/Binaries/
-/DerivedDataCache/
-/Intermediate/
-/Saved/
+## You must ignore each new game
+Building_Escape/Binaries/
+Building_Escape/DerivedDataCache/
+Building_Escape/Intermediate/
+Building_Escape/Saved/

@@ -22,3 +22,6 @@ Building_Escape/Binaries/
 Building_Escape/DerivedDataCache/
 Building_Escape/Intermediate/
 Building_Escape/Saved/
+
+Building_Escape/.vscode/
+Building_Escape/.vs/

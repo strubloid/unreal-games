@@ -21,7 +21,7 @@ void UOpenDoor::BeginPlay()
 	FRotator OpenDoor = {0.f, 180.f,0.f};
 	GetOwner()->SetActorRotation(OpenDoor);
     
-	UE_LOG(LogTemp, Error, TEXT("TESTTTT MODAFOKA!!"));
+	UE_LOG(LogTemp, Error, TEXT("TESTTTT 22222"));
 
 	// FString test = FString::Printf(TEXT("%s"),*Text);
     // UE_LOG(LogTemp, Warning, TEXT("%s"), *Text);

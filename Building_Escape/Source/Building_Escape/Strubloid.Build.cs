@@ -2,9 +2,9 @@
 
 using UnrealBuildTool;
 
-public class Building_Escape : ModuleRules
+public class Strubloid : ModuleRules
 {
-    public Building_Escape(ReadOnlyTargetRules Target) : base(Target)
+    public Strubloid(ReadOnlyTargetRules Target) : base(Target)
     {
         PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 

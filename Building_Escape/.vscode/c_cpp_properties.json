@@ -232,8 +232,7 @@
                 "C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.17763.0\\ucrt",
                 "C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.17763.0\\shared",
                 "C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.17763.0\\um",
-                "C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.17763.0\\winrt",
-                "${workspaceFolder}/Source/Building_Escape/Public"
+                "C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.17763.0\\winrt"
             ],
             "intelliSenseMode": "msvc-x64",
             "defines": [
@@ -537,7 +536,7 @@
                 "CLOTHINGSYSTEMRUNTIMEINTERFACE_API=",
                 "AUDIOMIXERCORE_VTABLE=DLLIMPORT_VTABLE",
                 "AUDIOMIXERCORE_API=",
-                "UE_PROJECT_NAME=Building_Escape",
+                "UE_PROJECT_NAME=BuildingEscape",
                 "BUILDING_ESCAPE_VTABLE=DLLEXPORT_VTABLE",
                 "BUILDING_ESCAPE_API="
             ],

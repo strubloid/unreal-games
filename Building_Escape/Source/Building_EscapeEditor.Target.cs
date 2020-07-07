@@ -9,6 +9,6 @@ public class Building_EscapeEditorTarget : TargetRules
 	{
 		Type = TargetType.Editor;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
-		ExtraModuleNames.AddRange( new string[] { "Building_Escape" } );
+		ExtraModuleNames.AddRange( new string[] { "Building_Escape", "Strubloid" } );
 	}
 }

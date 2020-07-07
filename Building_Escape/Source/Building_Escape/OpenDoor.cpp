@@ -1,6 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 #include "OpenDoor.h"
 #include "GameFramework/Actor.h"
+#include "Strubloid/Strubloid.h"
 
 // Sets default values for this component's properties
 UOpenDoor::UOpenDoor()
@@ -22,6 +23,8 @@ void UOpenDoor::BeginPlay()
 	GetOwner()->SetActorRotation(OpenDoor);
     
 	UE_LOG(LogTemp, Error, TEXT("TESTTTT 22222"));
+
+	testrafa();
 
 	// FString test = FString::Printf(TEXT("%s"),*Text);
     // UE_LOG(LogTemp, Warning, TEXT("%s"), *Text);

@@ -11,6 +11,11 @@
 			"AdditionalDependencies": [
 				"Engine"
 			]
+		},
+		{
+			"Name": "Strubloid",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
 		}
 	]
 }

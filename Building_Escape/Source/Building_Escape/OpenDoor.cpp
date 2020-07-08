@@ -19,12 +19,14 @@ void UOpenDoor::BeginPlay()
 {
 	Super::BeginPlay();
 
-	FRotator OpenDoor = {0.f, 180.f,0.f};
-	GetOwner()->SetActorRotation(OpenDoor);
-    
-	UE_LOG(LogTemp, Error, TEXT("TESTTTT 22222"));
+	float MyFloatRotation = 90.f;
+	FRotator CurrentRotation = GetOwner()->GetActorRotation();
+	CurrentRotation.Yaw += MyFloatRotation;
 
-	testrafa();
+	GetOwner()->SetActorRotation(CurrentRotation);
+    
+	UE_LOG(LogTemp, Error, TEXT("ITs open Raf!"));
+
 
 	// FString test = FString::Printf(TEXT("%s"),*Text);
     // UE_LOG(LogTemp, Warning, TEXT("%s"), *Text);
